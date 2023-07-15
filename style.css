@@ -117,9 +117,7 @@ nav .menu {
     border-radius: 8px;
     transition-duration: 0.4s;
     cursor: pointer;
-
 }
-
 @media screen and (max-width: 800px) {
     .menu {
         width: 100%;
