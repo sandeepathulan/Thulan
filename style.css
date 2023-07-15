@@ -31,7 +31,7 @@ nav .menu {
 
 .menu .logo a {
     text-decoration: none;
-    color: #fff;
+    color: #da2323;
     font-size: 30px;
     font-weight: 600;
 }
@@ -52,7 +52,7 @@ nav .menu {
 .menu ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding: 8px 15px;
     border-radius: 5px;
@@ -118,4 +118,34 @@ nav .menu {
     transition-duration: 0.4s;
     cursor: pointer;
 
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        width: 100%;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    ul {
+        width: 90%;
+        display: flex;
+        list-style: none;
+        padding: 5 90px;
+
+    }
+
+    li {
+        width: 19%;
+    }
+
+    .menu ul li a {
+        font-size: 11px;
+    }
+
+    .menu .logo a {
+        font-size: 12px;
+    }
 }
